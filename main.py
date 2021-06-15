@@ -1,11 +1,7 @@
-import math.random
+import random
 
-
-
-print "Hello"
-
-
-
+for i in range(10):
+    print(random.randint(1, 25))
 
 if __name__ == "__main__":
     print "function"
